@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crew</title>
+    <link rel="shortcut icon" type="image" href="imgs/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css"/>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css"/>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/space.css"/>
+</head>
+<body>
+    <div class="backgroundImage crew">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imgs/shared/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <nav>
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul class="style">
+                        <li>
+                            <a href="index.html"><span class="counter">00</span> Home</a>
+                        </li>
+                        <li>
+                            <a href="description.html"><span class="counter">01</span> Description</a>
+                        </li>
+                        <li class="active">
+                            <a href="crew.html"><span class="counter">02</span> Crew</a>
+                        </li>
+                        <li>
+                            <a href="technology.html"><span class="counter">03</span> Technology</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="main-crew flex-div">
+            <div class="container">
+                <div class="paragraph">
+                    <span>02</span>
+                    <p>Meet your crew</p>
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <div class="text active" id="douglas">
+                            <span>Commander</span>
+                            <h2>Douglas Hurley</h2>
+                            <p>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                        </div>
+                        <div class="text" id="mark">
+                            <span>Mission Specialist</span>
+                            <h2>Mark Shuttlewoth</h2>
+                            <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+                        </div>
+                        <div class="text" id="victor">
+                            <span>Pilot</span>
+                            <h2>Victor Glover</h2>
+                            <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+                        </div>
+                        <div class="text" id="anousheh">
+                            <span>Flight Engineer</span>
+                            <h2>Anousheh Ansari</h2>
+                            <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
+                        </div>
+                        <div class="slider">
+                            <span data-name="douglas" class="active"></span>
+                            <span data-name="mark"></span>
+                            <span data-name="victor"></span>
+                            <span data-name="anousheh"></span>
+                        </div>
+                    </div>
+                    <div class="photo">
+                        <img src="imgs/crew/image-douglas-hurley.png" alt="" class="active" data-name="douglas">
+                        <img src="imgs/crew/image-mark-shuttleworth.png" alt="" data-name="mark">
+                        <img src="imgs/crew/image-victor-glover.png" alt="" data-name="victor">
+                        <img src="imgs/crew/image-anousheh-ansari.png" alt="" data-name="anousheh">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

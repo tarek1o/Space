@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology</title>
+    <link rel="shortcut icon" type="image" href="imgs/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css"/>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css"/>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/space.css"/>
+</head>
+<body>
+    <div class="backgroundImage technology">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imgs/shared/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <nav>
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul class="style">
+                        <li>
+                            <a href="index.html"><span class="counter">00</span> Home</a>
+                        </li>
+                        <li>
+                            <a href="description.html"><span class="counter">01</span> Description</a>
+                        </li>
+                        <li>
+                            <a href="crew.html"><span class="counter">02</span> Crew</a>
+                        </li>
+                        <li class="active">
+                            <a href="technology.html"><span class="counter">03</span> Technology</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="tech flex-div">
+            <div class="container">
+                <div class="paragraph">
+                    <span>03</span>
+                    <p>Space Launch 101</p>
+                </div>
+                <div class="content">
+                    <div class="steps">
+                        <span class="active" data-name="launch">1</span>
+                        <span data-name="spaceport">2</span>
+                        <span data-name="capsule">3</span>
+                    </div>
+                    <div class="info">
+                        <span>The Terminology...</span>
+                        <div class="text active" id="launch">
+                            <h2>Launch Vehicle</h2>
+                            <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+                        </div>
+                        <div class="text" id="spaceport">
+                            <h2>Spaceport</h2>
+                            <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+                        </div>
+                        <div class="text" id="capsule">
+                            <h2>Space Capsule</h2>
+                            <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+                        </div>
+                    </div>
+                    <div class="photo portrait">
+                        <img src="imgs/technology/high/image-launch-vehicle-portrait_auto_x2_colored_toned.jpg" alt="" class="active" data-name="launch">
+                        <img src="imgs/technology/high/image-spaceport-portrait_auto_x2_colored_toned.jpg" alt="" data-name="spaceport">
+                        <img src="imgs/technology/high/image-space-capsule-portrait_auto_x2_colored_toned.jpg" alt="" data-name="capsule">
+                    </div>
+                    <div class="photo landscape">
+                        <img src="imgs/technology/high/image-launch-vehicle-landscape_auto_x2_colored_toned.jpg" alt="" class="active" data-name="launch">
+                        <img src="imgs/technology/high/image-spaceport-landscape_auto_x2_colored_toned.jpg" alt="" data-name="spaceport">
+                        <img src="imgs/technology/high/image-space-capsule-landscape_auto_x2_colored_toned.jpg" alt="" data-name="capsule">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Description</title>
+    <link rel="shortcut icon" type="image" href="imgs/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="CSS/normalize.css"/>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="CSS/all.min.css"/>
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="CSS/space.css"/>
+</head>
+<body>
+    <div class="backgroundImage decription">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imgs/shared/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+                <nav>
+                    <i class="fa-solid fa-xmark"></i>
+                    <ul class="style">
+                        <li>
+                            <a href="index.html"><span class="counter">00</span> Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="description.html"><span class="counter">01</span> Description</a>
+                        </li>
+                        <li>
+                            <a href="crew.html"><span class="counter">02</span> Crew</a>
+                        </li>
+                        <li>
+                            <a href="technology.html"><span class="counter">03</span> Technology</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="desc flex-div">
+            <div class="container">
+                <div class="paragraph">
+                    <span>01</span>
+                    <p>Pick Your Description</p>
+                </div>
+                <div class="content">
+                    <div class="photo">
+                        <img src="imgs/destination/image-moon.webp" alt="" class="active" data-name="moon">
+                        <img src="imgs/destination/image-mars.webp" alt="" data-name="mars">
+                        <img src="imgs/destination/image-europa.webp" alt="" data-name="europa">
+                        <img src="imgs/destination/image-titan.webp" alt="" data-name="titan">
+                    </div>
+                    <div class="text">
+                        <ul class="style">
+                            <li class="active" data-name="moon">Moon</li>
+                            <li data-name="mars">Mars</li>
+                            <li data-name="europa">Europa</li>
+                            <li data-name="titan">Titan</li>
+                        </ul>
+                        <div class="active" id="moon">
+                            <h2 class="name">Moon</h2>
+                            <p class="about-place">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            <div class="details">
+                                <div>
+                                    <span>Avg. Distance</span>
+                                    <span>384,400 KM</span>
+                                </div>
+                                <div>
+                                    <span>Est. Travel Time</span>
+                                    <span>3 Days</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="mars">
+                            <h2 class="name">Mars</h2>
+                            <p class="about-place">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!</p>
+                            <div class="details">
+                                <div>
+                                    <span>Avg. Distance</span>
+                                    <span>225 MIL. km</span>
+                                </div>
+                                <div>
+                                    <span>Est. Travel Time</span>
+                                    <span>9 months</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="europa">
+                            <h2 class="name">Europa</h2>
+                            <p class="about-place">The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.</p>
+                            <div class="details">
+                                <div>
+                                    <span>Avg. Distance</span>
+                                    <span>628 MIL. km</span>
+                                </div>
+                                <div>
+                                    <span>Est. Travel Time</span>
+                                    <span>3 years</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="titan">
+                            <h2 class="name">Titan</h2>
+                            <p class="about-place">The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
+                            <div class="details">
+                                <div>
+                                    <span>Avg. Distance</span>
+                                    <span>1.6 BIL. km</span>
+                                </div>
+                                <div>
+                                    <span>Est. Travel Time</span>
+                                    <span>7 years</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
